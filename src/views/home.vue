@@ -5,6 +5,9 @@
         <Mobanyufa></Mobanyufa>
         <Shuxingbangding></Shuxingbangding>
         <Tiaojianxuanran></Tiaojianxuanran>
+        <liebiaoxuanran></liebiaoxuanran>  
+        <keyguanlizhuangtai></keyguanlizhuangtai> 
+        <Shijianchuancan></Shijianchuancan>
     </div>
 </template>
 
@@ -13,13 +16,19 @@
 import Mobanyufa from '../components/mobanyufa.vue';
 import Shuxingbangding from '../components/shuxingbangding.vue'
 import Tiaojianxuanran from '../components/tiaojianxuanran.vue'
+import liebiaoxuanran from '../components/liebiaoxuanran.vue';
+import keyguanlizhuangtai from '../components/keyguanlizhuangtai.vue'
+import Shijianchuancan from '../components/shijianchuancan.vue'
 
 export default {
     name: 'home',
     components: {
         Mobanyufa,
         Shuxingbangding,
-        Tiaojianxuanran
+        Tiaojianxuanran,
+        liebiaoxuanran,
+        keyguanlizhuangtai,
+        Shijianchuancan
     },
 }
 </script>
