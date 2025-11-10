@@ -10,6 +10,17 @@
         <Shijianchuancan></Shijianchuancan>
         <Shijianxiushifu></Shijianxiushifu>
         <Shuzubianhuazhence></Shuzubianhuazhence>
+        <Jisuanshuxing></Jisuanshuxing>
+        <Classbangding></Classbangding>
+        <Stylebangding></Stylebangding>
+        <Watchzhenting></Watchzhenting>
+        <Shuxingbangding></Shuxingbangding>
+        <mobanyinyong></mobanyinyong>
+        <zujainqiantao></zujainqiantao>
+        <zujianchuanzhiprops></zujianchuanzhiprops>
+        <propsjiaoyanA></propsjiaoyanA>
+        <zujianshijian></zujianshijian>
+        <zujianshijianVmodel></zujianshijianVmodel>
     </div>
 </template>
 
@@ -23,6 +34,19 @@ import keyguanlizhuangtai from '../components/keyguanlizhuangtai.vue'
 import Shijianchuancan from '../components/shijianchuancan.vue'
 import Shijianxiushifu from '../components/shijianxiushifu.vue';
 import Shuzubianhuazhence from '../components/shuzubianhuazhence.vue';
+import Jisuanshuxing from '../components/jisuanshuxing.vue';
+import Classbangding from '../components/classbangding.vue';
+import Stylebangding from '../components/stylebangding.vue';
+import Watchzhenting from '../components/watchzhenting.vue';
+import Biaodanshujvbangding from '../components/biaodanshujvbangding.vue';
+import mobanyinyong from '../components/mobanyinyong.vue';
+import zujainqiantao from '../components/zujainqiantao.vue';
+import zujianchuanzhiprops from '../components/zujianchuanzhiprops.vue';
+import propsjiaoyanA from '../components/propsjiaoyanA.vue';
+import zujianshijian from '../components/zujianshijian.vue';
+import zujianshijianVmodel from '../components/zujianshijianVmodel.vue';
+
+
 
 export default {
     name: 'home',
@@ -34,8 +58,18 @@ export default {
         keyguanlizhuangtai,
         Shijianchuancan,
         Shijianxiushifu,
-        Shuzubianhuazhence
-
+        Shuzubianhuazhence,
+        Jisuanshuxing,
+        Classbangding,
+        Stylebangding,
+        Watchzhenting,
+        Biaodanshujvbangding,
+        mobanyinyong,
+        zujainqiantao,
+        zujianchuanzhiprops,
+        propsjiaoyanA,
+        zujianshijian,
+        zujianshijianVmodel,
     },
 }
 </script>
