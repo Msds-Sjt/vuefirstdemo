@@ -23,7 +23,7 @@ export default {
     },
     methods: {
         addCount() {
-            this.countNum += 2
+            this.countNum += 2;
         },
     }
 }

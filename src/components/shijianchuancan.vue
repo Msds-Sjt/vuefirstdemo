@@ -27,7 +27,7 @@ export default {
             console.log(e.currentTarget, 'e.currentTarget.currentTarget.currentTarget');
             console.log(e.target.innerHTML, 'e.target.innerHTML.innerHTML.innerHTML.innerHTML');
             e.target.innerHTML = '添加添加' + this.countNum;
-            this.countNum += 454
+            this.countNum += 454;
         },
         newCount(msg) {
             console.log(msg,'msgmsgmsgmsg')
